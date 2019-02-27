@@ -1,0 +1,26 @@
+.App{
+  display: flex;
+}
+.main{
+  flex-basis: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.map{
+  flex-grow: 1;
+  height: 100vh; 
+ width: 100%;
+  top:0;
+  position: sticky;
+  /* height: 81vh;
+  width: 100%; */
+}
+.flats{
+  display:flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.flat{
+  flex-basis: calc(50% - 20px );
+  margin: 10px;
+ }
